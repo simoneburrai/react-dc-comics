@@ -1,5 +1,9 @@
 function Footer() {
-    return <footer>Footer</footer>;
+    return <footer>
+        <Nav />
+        <FooterList />
+        <FooterBottom />
+    </footer>;
 }
 
 

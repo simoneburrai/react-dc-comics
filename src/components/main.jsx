@@ -1,5 +1,5 @@
 function Main() {
-    return <main>Main</main>;
+    return <main><h1>-Content Goes Here--</h1></main>
 }
 
 
