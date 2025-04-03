@@ -28,9 +28,22 @@ main,
 
 /* Header  */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  align-items: center;
+}
+
+header .logo img {
+  width: 80px;
+}
 
 header ul {
   text-transform: uppercase;
+  padding: 50px 0;
+  display: flex;
+  gap: 30px;
 }
 
 
