@@ -1,25 +1,78 @@
+/* General Settings and Body  */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header ul {
-  list-style: none;
-  text-transform: uppercase;
-}
-
 body {
-  width: 80vw;
   margin: 0 auto;
 }
 
+ul {
+  list-style: none;
+}
+
+header,
+main,
+.footerNav {
+  padding: 50px 200px;
+}
+
+
+/* Header  */
+
+
+header ul {
+  text-transform: uppercase;
+}
+
+
+/* Main  */
 main {
   background-color: #1c1c1c;
   color: white;
-  padding: 50px;
 }
+
+/* Footer  */
 
 footer {
   background-color: #303030;
+}
+
+.footerNav {
+  background-color: #0282f9;
+  color: white;
+  display: flex;
+  gap: 50px;
+}
+
+.footerNav .navElement {
+  display: flex;
+  align-items: center;
+  width: calc((100% - 200px) / 5);
+  text-transform: uppercase;
+
+}
+
+.navElement img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.footerList {
+  background-image: url(assets/img/footer-bg.jpg);
+  color: white;
+  display: flex;
+  gap: 200px;
+}
+
+.footerList .logo-container {
+  background-image: url(assets/img/dc-logo-bg.png);
+  height: 100%;
+}
+
+.footerList .list-column {
+  padding: 50px 0;
 }
