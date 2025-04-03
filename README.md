@@ -1,12 +1,10 @@
-# React + Vite
+# React DC Comics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Info
 
-Currently, two official plugins are available:
+Nel progetto di oggi, salvato come progetto n.38, andiamo per la prima volta a creare la nostra folder utilizzando Vite. Vite è un tool che ci permette di utilizzare librarie e framework differenti, occupandosi interamente dello scafolding. Il progetto viene avviato inserendo come template React, con il quale andremo poi a scrivere il nostro progetto (utilizzando estensioni .jsx). Il progetto è stato diviso in 2 giorni, qui di seguito le informazioni relative.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Giorno 1
 
-## Expanding the ESLint configuration
+Nel Giorno 1 ci viene fornito un layout di una pagina web della DC Comics. Questo layout contiene un header un main e un footer (header e footer completi, main da completare nel secondo giorno). Sfruttando appunto lo scafolding fornitoci da Vite, andiamo a inserire i nostri componenti (quindi le nostre funzioni contenenti linguaggio HTML) direttamente all'interno del nostro file .jsx.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
