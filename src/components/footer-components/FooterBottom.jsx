@@ -9,12 +9,13 @@ function FooterBottom() {
         <button>Sign Up Now</button>
         <div className="links">
             <a href="" className="follow">Follow Us</a>
-            <a href=""><img src={facebookImg} alt="facebook logo" /></a>
-            <a href=""><img src={twitterImg} alt="twitter-logo" /></a>
-            <a href=""><img src={youtubeImg} alt="youtube logo" /></a>
-            <a href=""><img src={pinterestImg} alt="pinterest logo" /></a>
-            <a href=""><img src={geoImg} alt="geo logo" /></a>
+            <a className="logo-link" href=""><img src={facebookImg} alt="facebook logo" /></a>
+            <a className="logo-link" href=""><img src={twitterImg} alt="twitter-logo" /></a>
+            <a className="logo-link" href=""><img src={youtubeImg} alt="youtube logo" /></a>
+            <a className="logo-link" href=""><img src={pinterestImg} alt="pinterest logo" /></a>
+            <a className="logo-link" href=""><img src={geoImg} alt="geo logo" /></a>
         </div>
     </div>
 }
+
 export default FooterBottom;
