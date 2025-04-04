@@ -8,12 +8,12 @@ function FooterBottom() {
     return <div className="footer-bottom">
         <button>Sign Up Now</button>
         <div className="links">
-            <span>Follow Us</span>
-            <img src={facebookImg} alt="facebook logo" />
-            <img src={twitterImg} alt="twitter-logo" />
-            <img src={youtubeImg} alt="youtube logo" />
-            <img src={pinterestImg} alt="pinterest logo" />
-            <img src={geoImg} alt="geo logo" />
+            <a href="" className="follow">Follow Us</a>
+            <a href=""><img src={facebookImg} alt="facebook logo" /></a>
+            <a href=""><img src={twitterImg} alt="twitter-logo" /></a>
+            <a href=""><img src={youtubeImg} alt="youtube logo" /></a>
+            <a href=""><img src={pinterestImg} alt="pinterest logo" /></a>
+            <a href=""><img src={geoImg} alt="geo logo" /></a>
         </div>
     </div>
 }
