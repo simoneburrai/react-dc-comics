@@ -1,9 +1,13 @@
-const dcComicsList = ["Characters", "Comics", "Movies", "Tv", "Games", "Videos", "News"];
-const shopList = ["Shop Dc", "Shop Dc Collectibles"];
-const dcList = ["Terms of Use", "Privacy Policy (New)", "Ad Choices", "Advertising",
-    "Jobs", "Subscription", "Talent Workshops", "CSPC Certificates", "Ratings", "Shop Help",
-    "Contac Us"];
-const sitesList = ["DC", "Mad Magazines", "DC Kids", "DC Universe", "DC Power Visa"]
+import links from "../../data/links"
+const { dcComicsList, shopList, dcList, sitesList } = links;
+
+
+// const dcComicsList = ["Characters", "Comics", "Movies", "Tv", "Games", "Videos", "News"];
+// const shopList = ["Shop Dc", "Shop Dc Collectibles"];
+// const dcList = ["Terms of Use", "Privacy Policy (New)", "Ad Choices", "Advertising",
+//     "Jobs", "Subscription", "Talent Workshops", "CSPC Certificates", "Ratings", "Shop Help",
+//     "Contac Us"];
+// const sitesList = ["DC", "Mad Magazines", "DC Kids", "DC Universe", "DC Power Visa"]
 
 import LinkListElement from "../header-components/LinkListElement";
 
