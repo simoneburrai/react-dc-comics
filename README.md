@@ -8,3 +8,6 @@ Nel progetto di oggi, salvato come progetto n.38, andiamo per la prima volta a c
 
 Nel Giorno 1 ci viene fornito un layout di una pagina web della DC Comics. Questo layout contiene un header un main e un footer (header e footer completi, main da completare nel secondo giorno). Sfruttando appunto lo scafolding fornitoci da Vite, andiamo a inserire i nostri componenti (quindi le nostre funzioni contenenti linguaggio HTML) direttamente all'interno del nostro file .jsx.
 
+Qui di seguito il risultato del giorno 1.
+
+![Immagine](./src/assets/img/screenshot-day1.jpeg)
