@@ -27,8 +27,7 @@ ul {
 }
 
 header,
-.footerNav,
-.card-container {
+.footerNav {
   padding: 5% 20%;
 }
 
@@ -93,8 +92,9 @@ main {
 
 .jumbo-container {
   width: 100%;
-  height: 650px;
+  height: 400px;
   background-image: url(./assets/img/jumbotron.jpg);
+  background-size: cover;
 }
 
 .card-container {
@@ -102,9 +102,13 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+  padding: 5% 10%;
 }
 
 .card-container h2 {
+  left: 0;
+  margin-left: 20%;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -121,7 +125,10 @@ main {
 }
 
 .card h3 {
+  width: 100%;
   font-weight: 300;
+  font-size: 15px;
+  text-overflow: ellipsis;
 }
 
 .img-container {
@@ -129,8 +136,18 @@ main {
 }
 
 .card .card-image {
-  width: 100%;
-  height: 100%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: 0%;
+}
+
+.card-container .load-button {
+  text-transform: uppercase;
+  padding: 5px 30px;
+  height: 50px;
+  background-color: #0282f9;
+  text-align: center;
 }
 
 /* Footer  */

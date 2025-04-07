@@ -10,6 +10,7 @@ function Main({ comics }) {
             {comics.map((comic) => {
                 return <Card key={comic.id} series={comic.series} img={comic.thumb} />
             })}
+            <button className="load-button" href="">Load More</button>
         </div>
     </main>
 }
