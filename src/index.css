@@ -103,7 +103,7 @@ main {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 5% 10%;
+  padding: 5% 20%;
 }
 
 .card-container h2 {
