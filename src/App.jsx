@@ -1,6 +1,7 @@
-import Footer from "./components/footer"
-import Header from "./components/header"
-import Main from "./components/main"
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Main from "./components/main";
+import comics from "./data/comics";
 const links = {
   dcComicsList: ["Characters", "Comics", "Movies", "Tv", "Games", "Videos", "News"],
   shopList: ["Shop Dc", "Shop Dc Collectibles"],
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Main comics={comics} />
       <Footer />
     </>
   )

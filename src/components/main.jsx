@@ -1,5 +1,17 @@
-function Main() {
-    return <main><h1>---&gt;Content Goes Here&lt; --</h1></main>
+import Card from "./main-components/Card";
+
+
+function Main({ comics }) {
+    return <main>
+        <div className="jumbo-container">
+        </div>
+        <div className="card-container">
+            <h2>Current Series</h2>
+            {comics.map((comic) => {
+                return <Card key={comic.id} series={comic.series} img={comic.thumb} />
+            })}
+        </div>
+    </main>
 }
 
 

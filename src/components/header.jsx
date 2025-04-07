@@ -7,8 +7,8 @@ function Header() {
     return <header>
         <a href="" className="logo"><img src={logo} alt="logo" /></a>
         <ul className="header-nav">
-            {navLinks.map((link) => {
-                return <LinkListElement currentLink={link} />
+            {navLinks.map((link, index) => {
+                return <LinkListElement key={index} currentLink={link} />
             })}
         </ul>
     </header>;
