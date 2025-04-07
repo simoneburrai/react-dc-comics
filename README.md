@@ -11,3 +11,7 @@ Nel Giorno 1 ci viene fornito un layout di una pagina web della DC Comics. Quest
 Qui di seguito il risultato del giorno 1.
 
 ![Immagine](./src/assets/img/screenshot-day1.jpeg)
+
+## Giorno 2
+
+Nel giorno 2 lavoriamo con le props. Passiami degli attributi, corrispondenti a chiavi e valori dell'oggetto props. Questi attributi verranno poi riutilizzati nei figli componenti di un altro componente. L'obiettivo è creare un array di links, sia per l'header, che per il footer, e creare dinamicamente ogni elemento **li** attraverso l'iterazione dell'array con map e sfruttando le informazioni degli array passate tramite props.
